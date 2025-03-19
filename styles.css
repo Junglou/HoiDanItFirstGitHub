@@ -1,0 +1,113 @@
+/* Reset margin, padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    border: 1px solid red;
+}
+
+.green{
+    border: 1px solid green;
+}
+/* Background */
+.background {
+    height: 500px;
+    background: url("bk1.jpg") center repeat;
+    padding: 20px;
+}
+
+/* Thanh điều hướng (chứa logo + nút) */
+.about-signin {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Logo bên trái, nút bên phải */
+    padding: 0 20px;
+    background: transparent; /* Giữ trong suốt nếu cần */
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    height: 150px;
+    background-image: url("bk2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/* Nhóm các nút About Us & Sign In */
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+/* Nút */
+.about, .sign {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 16px;
+    background: white; /* Giữ nguyên màu nền hoặc để trong suốt */
+}
+
+.sign {
+    border: 5px solid green;
+}
+
+.about {
+    border: 5px solid red;
+}
+
+.text{
+    margin-top: 30px;
+    position: absolute;
+    bottom: 100px; /* Điều chỉnh khoảng cách xuống dưới */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.btn_SN{
+    position: absolute;
+    bottom: 50px; /* Điều chỉnh khoảng cách xuống dưới */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+button{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-top: 25px;
+    border: 5px solid rebeccapurple;
+    cursor: pointer;
+}
+
+.conten_center{
+    margin-top: 400px;
+}
+
+.left, .right, .clock{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+span{
+    display: block;
+    font-size: 20px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
